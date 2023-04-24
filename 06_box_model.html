@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model/ margin & padding</title>
+<style>
+
+    /* CSS RESET */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+    .box {
+        background: rgb(207, 205, 207);
+        border: 2px purple solid;
+        width: 500px;
+
+        /* padding per side */
+        padding-top: px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+
+        /* padding short hand  */
+        padding: 10px 20px 10px 20px;
+                /* or */
+        /* mas short hand ng pading */
+        padding: 10px 20px;
+
+        /* padding in all sides */
+        padding: 20px;
+
+        /* margin on all side */
+        margin: 20px;
+
+        /* margin per side */
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+        /* margin short hand top right bottom left */
+        margin: 10px 20px 10px 20px;
+                /* or */
+        margin: 10px 20px;
+    
+    }
+
+   
+
+</style>
+
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dicta aliquid exercitationem a excepturi ipsam nesciunt voluptate labore eius voluptates, molestiae, soluta odio placeat quia. Autem laudantium ullam possimus labore, ex exercitationem. Quam odit, nisi nulla doloremque culpa quis quas necessitatibus similique voluptas suscipit cupiditate omnis officiis impedit nihil aperiam!</p>
+    </div>
+    
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dicta aliquid exercitationem a excepturi ipsam nesciunt voluptate labore eius voluptates, molestiae, soluta odio placeat quia. Autem laudantium ullam possimus labore, ex exercitationem. Quam odit, nisi nulla doloremque culpa quis quas necessitatibus similique voluptas suscipit cupiditate omnis officiis impedit nihil aperiam!</p>
+    </div>
+</body>
+</html>
